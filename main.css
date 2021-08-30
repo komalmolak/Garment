@@ -1,0 +1,148 @@
+.carousel-item{
+    height: 500px;
+}
+.bgimg
+{
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/16/19/47/wood-2072273_1280.jpg");
+}
+.navbar-shadow{
+    box-shadow: 10px 10px 10px gray;
+    z-index:999;
+}
+.navbar{
+  position:relative;
+  position: fixed;
+  top: 0;
+}
+.slidermargin{
+  margin-top:15px;
+}
+.edit{
+    color: black;
+   height: 200px; width:500px;
+    margin: auto;
+/* background-color: rgba(255, 192, 203, 0.658); */
+text-align: center;
+font-size: 20px;
+font-family: Cursive;
+margin-top: 100px;
+margin-bottom: 160px;
+margin-left: 455px;
+}
+.fade-in 
+{
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+  }
+.icon
+{
+  float: left;
+  margin-right: 32px;
+}
+.text{
+  text-align: justify;
+  font-family: serif;
+  margin-left:75px;
+}
+.typeofdress{
+margin-top: 5%;
+margin-left: 2%;
+}
+/* .dressdemo{
+  
+} */
+.dressdemo:hover{
+  box-shadow: 10px 10px 10px rgb(238, 54, 167);
+  border-radius: 5px;
+ /* box-shadow: 0 9px rgba(248, 4, 248, 0.74); */
+}
+
+.quote
+{
+background-image:url("Qbg3.jpg");
+margin-top:2%;
+height: 500px;
+}
+.quotetext{
+text-align:justify;
+font-family: Cursive;
+font-size: 30px;
+color: bisque;
+margin: 10%;
+padding:auto;
+}
+.textimg{
+  text-align: center;
+ /* padding-bottom: 10px; */
+  position: absolute; 
+  bottom: 0; 
+  padding: 20px;
+  margin-left:80px;
+ margin-bottom: 20px; 
+  background-color: white;
+}
+.info{
+  margin-top: 50px;
+}
+.aboutus{
+  margin:5%;
+}
+.arrival_title{
+  text-align: center;
+  list-style: none;
+}
+.new-arrival:hover{
+  border: solid 2px rgb(206, 26, 152);
+
+}
+.Account-list{
+  text-decoration: none;
+
+}
